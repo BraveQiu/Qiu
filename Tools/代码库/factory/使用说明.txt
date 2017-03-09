@@ -1,0 +1,5 @@
+instance.properties是配置文件，里面是字符串与具体对象类的映射
+BeanFactory.getInstance("foodtypeDao",IFoodTypeDao.class);
+		两个参数：
+			foodtypeDao:是配置文件中的字符串，表示创建的类
+			IFoodTypeDao.class:引用的全类型
